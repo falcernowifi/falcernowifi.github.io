@@ -1,3 +1,53 @@
 * {
-  all: unset;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 70px;
+  /*background-color: pink;*/
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar a {
+  margin-right: 20px;
+  color: #ddd;
+  text-decoration: none;
+  letter-spacing: 1.3px;
+  font-weight: bold;
+}
+
+.navbar li:last-child a {
+  margin-right: 0px;
+}
+
+section {
+  min-height: 100vh;
+}
+
+.blank {
+  background-color: red;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing {
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 }
